@@ -220,14 +220,26 @@ body{
 }
 
 @media (max-width: 450px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     body, html {
         overflow-x: hidden;}
 .container{
+    
     display: block;  
     margin: 0;      
     background: none; 
     padding: unset;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
     
+}
+.box{
+    width: 85%;
+    margin-left: 40px;
 }
 } 
