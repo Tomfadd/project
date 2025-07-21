@@ -15,7 +15,7 @@ body{
 .box{
     height: 22rem;
     width:
-        22rem
+        22rem;
     
 }
 .container{
@@ -221,7 +221,9 @@ body{
 
 @media (max-width: 600px){
 .container{
-    display: flex;
-    flex-direction: column;
+    display: block;  
+    margin: 0;      
+    background: none; 
+    padding: unset;
 }
 }
