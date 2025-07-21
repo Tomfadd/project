@@ -242,6 +242,6 @@ body{
 }
 .box{
     width: 85%;
-   
+   overflow: hidden;
 }
 } 
