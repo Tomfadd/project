@@ -218,3 +218,10 @@ body{
     padding-top: 30px;
     object-fit: contain;
 }
+
+@media (max-width: 768px){
+.container{
+    display: flex;
+    flex-direction: column;
+}
+}
