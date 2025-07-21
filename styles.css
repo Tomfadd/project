@@ -220,10 +220,14 @@ body{
 }
 
 @media (max-width: 600px){
+    body, html {
+    overflow-x: hidden;
 .container{
     display: block;  
     margin: 0;      
     background: none; 
     padding: unset;
+    max-width: 100%;
+    
 }
 }
